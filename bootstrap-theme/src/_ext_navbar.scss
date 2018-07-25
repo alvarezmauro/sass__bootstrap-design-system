@@ -1,0 +1,11 @@
+
+.navbar.bg-dark {
+  background-color: $gray-900 !important;
+  .nav-link {
+    color: $white;
+    &:hover,
+    &:focus {
+      color: theme-color("primary");
+    }
+  }
+}

@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap UI Framework - Style Guide - Components - Input group</title>
+    <meta name="description" content="act-ui-framework - Style Guide">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- <link href="../bootstrap-theme/dist/css/bootstrap-theme.css" rel="stylesheet"> -->
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/prism.css" rel="stylesheet">
+    <style>
+      /* Fixed navbar */
+      body {
+        min-height: 75rem;
+        padding-top: 4.5rem;
+      }
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="../index.html">Bootstrap UI Framework - Style Guide - Components - Input group</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+      </ul>
+      <a class="btn btn-bd-yellow d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="https://getbootstrap.com/" target="_blank">getbootstrap.com</a>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+          <nav class="collapse bd-links" id="bd-docs-nav">
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../layout/overview.html">
+                Layout
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../layout/overview.html">
+                    Overview
+                  </a>
+                </li>
+                <li>
+                  <a href="../layout/grid.html">
+                    Grid
+                  </a>
+                </li>
+                <li>
+                  <a href="../layout/media-object.html">
+                    Media object
+                  </a>
+                </li>
+                <li>
+                  <a href="../layout/utilities-for-layout.html">
+                    Utilities for layout
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../content/reboot.html">
+                Content
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../content/reboot.html">
+                    Reboot
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/typography.html">
+                    Typography
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/code.html">
+                    Code
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/images.html">
+                    Images
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/tables.html">
+                    Tables
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/figures.html">
+                    Figures
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item active">
+              <a class="bd-toc-link" href="../components/alerts.html">
+                Components
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../components/alerts.html">
+                    Alerts
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/badge.html">
+                    Badge
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/breadcrumb.html">
+                    Breadcrumb
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/buttons.html">
+                    Buttons
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/button-group.html">
+                    Button group
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/card.html">
+                    Card
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/carousel.html">
+                    Carousel
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/collapse.html">
+                    Collapse
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/dropdowns.html">
+                    Dropdowns
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/forms.html">
+                    Forms
+                  </a>
+                </li>
+                <li class="active bd-sidenav-active">
+                  <a href="../components/input-group.html">
+                    Input group
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/jumbotron.html">
+                    Jumbotron
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/list-group.html">
+                    List group
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/modal.html">
+                    Modal
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/navs.html">
+                    Navs
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/navbar.html">
+                    Navbar
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/pagination.html">
+                    Pagination
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/popovers.html">
+                    Popovers
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/progress.html">
+                    Progress
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/scrollspy.html">
+                    Scrollspy
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/tooltips.html">
+                    Tooltips
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../utilities/borders.html">
+                Utilities
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../utilities/borders.html">
+                    Borders
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/clearfix.html">
+                    Clearfix
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/close-icon.html">
+                    Close icon
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/colors.html">
+                    Colors
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/display.html">
+                    Display
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/embed.html">
+                    Embed
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/flex.html">
+                    Flex
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/float.html">
+                    Float
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/image-replacement.html">
+                    Image replacement
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/position.html">
+                    Position
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/screenreaders.html">
+                    Screenreaders
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/sizing.html">
+                    Sizing
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/spacing.html">
+                    Spacing
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/text.html">
+                    Text
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/vertical-align.html">
+                    Vertical align
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/visibility.html">
+                    Visibility
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../patterns/patterns.html">
+                Patterns
+              </a>
+            </div>
+          </nav>
+        </div>
+
+        <div class="d-none d-xl-block col-xl-2 bd-toc">
+          <ul class="section-nav">
+            <li class="toc-entry toc-h2"><a href="#basic-example">Basic example</a></li>
+            <li class="toc-entry toc-h2"><a href="#sizing">Sizing</a></li>
+            <li class="toc-entry toc-h2"><a href="#checkboxes-and-radio-addons">Checkboxes and radio addons</a></li>
+            <li class="toc-entry toc-h2"><a href="#multiple-addons">Multiple addons</a></li>
+            <li class="toc-entry toc-h2"><a href="#button-addons">Button addons</a></li>
+            <li class="toc-entry toc-h2"><a href="#buttons-with-dropdowns">Buttons with dropdowns</a></li>
+            <li class="toc-entry toc-h2"><a href="#segmented-buttons">Segmented buttons</a></li>
+            <li class="toc-entry toc-h2"><a href="#accessibility">Accessibility</a></li>
+          </ul>
+        </div>
+
+        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+
+          <h1 class="bd-title" id="content">Input group</h1>
+          <p class="bd-lead">Easily extend form controls by adding text, buttons, or button groups on either side of textual inputs.</p>
+
+          <h2 id="basic-example">Basic example</h2>
+
+          <p>Place one add-on or button on either side of an input. You may also place one on both sides of an input. <strong>We do not support multiple form-controls in a single input group</strong> and <code class="highlighter-rouge">&lt;label&gt;</code>s must come outside the input group.</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">@</span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" />
+          </div>
+          <br />
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+            <span class="input-group-addon" id="basic-addon2">@example.com</span>
+          </div>
+          <br />
+          <label for="basic-url">Your vanity URL</label>
+          <div class="input-group">
+            <span class="input-group-addon" id="basic-addon3">https://example.com/users/</span>
+            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" />
+          </div>
+          <br />
+          <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" />
+            <span class="input-group-addon">.00</span>
+          </div>
+          <br />
+          <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <span class="input-group-addon">0.00</span>
+            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)" />
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="input-group">
+  <span class="input-group-addon" id="basic-addon1">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+<br>
+<div class="input-group">
+  <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <span class="input-group-addon" id="basic-addon2">@example.com</span>
+</div>
+<br>
+<label for="basic-url">Your vanity URL</label>
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon3">https://example.com/users/</span>
+  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon">$</span>
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+  <span class="input-group-addon">.00</span>
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon">$</span>
+  <span class="input-group-addon">0.00</span>
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+</div></xmp></code></pre></div>
+
+          <h2 id="sizing">Sizing</h2>
+
+          <p>Add the relative form sizing classes to the <code class="highlighter-rouge">.input-group</code> itself and contents within will automatically resize—no need for repeating the form control size classes on each element.</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="input-group input-group-lg">
+            <span class="input-group-addon" id="sizing-addon1">@</span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="sizing-addon1" />
+          </div>
+          <br />
+          <div class="input-group">
+            <span class="input-group-addon" id="sizing-addon2">@</span>
+            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="sizing-addon2" />
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="input-group input-group-lg">
+  <span class="input-group-addon" id="sizing-addon1">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="sizing-addon1">
+</div>
+<br>
+<div class="input-group">
+  <span class="input-group-addon" id="sizing-addon2">@</span>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="sizing-addon2">
+</div></xmp></code></pre></div>
+
+          <h2 id="checkboxes-and-radio-addons">Checkboxes and radio addons</h2>
+
+          <p>Place any checkbox or radio option within an input group’s addon instead of text.</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="input-group">
+                <span class="input-group-addon">
+                  <input type="checkbox" aria-label="Checkbox for following text input" />
+                </span>
+                <input type="text" class="form-control" aria-label="Text input with checkbox" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="input-group">
+                <span class="input-group-addon">
+                  <input type="radio" aria-label="Radio button for following text input" />
+                </span>
+                <input type="text" class="form-control" aria-label="Text input with radio button" />
+              </div>
+            </div>
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="Checkbox for following text input">
+      </span>
+      <input type="text" class="form-control" aria-label="Text input with checkbox">
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type="radio" aria-label="Radio button for following text input">
+      </span>
+      <input type="text" class="form-control" aria-label="Text input with radio button">
+    </div>
+  </div>
+</div></xmp></code></pre></div>
+
+          <h2 id="multiple-addons">Multiple addons</h2>
+
+          <p>Multiple add-ons are supported and can be mixed with checkbox and radio input versions.</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="input-group">
+                <span class="input-group-addon">
+                  <input type="checkbox" aria-label="Checkbox for following text input" />
+                </span>
+                <span class="input-group-addon">$</span>
+                <input type="text" class="form-control" aria-label="Text input with checkbox" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="input-group">
+                <span class="input-group-addon">$</span>
+                <span class="input-group-addon">0.00</span>
+                <input type="text" class="form-control" aria-label="Text input with radio button" />
+              </div>
+            </div>
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type="checkbox" aria-label="Checkbox for following text input">
+      </span>
+      <span class="input-group-addon">$</span>
+      <input type="text" class="form-control" aria-label="Text input with checkbox">
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-addon">$</span>
+      <span class="input-group-addon">0.00</span>
+      <input type="text" class="form-control" aria-label="Text input with radio button">
+    </div>
+  </div>
+</div></xmp></code></pre></div>
+
+          <h2 id="button-addons">Button addons</h2>
+
+          <p>Buttons in input groups must wrapped in a <code class="highlighter-rouge">.input-group-btn</code> for proper alignment and sizing. This is required due to default browser styles that cannot be overridden.</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="input-group">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
+                <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for..." />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for..." />
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Go!</button>
+                </span>
+              </div>
+            </div>
+          </div>
+          <br />
+          <div class="row">
+            <div class="col-lg-offset-3 col-lg-6">
+              <div class="input-group">
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Hate it</button>
+                </span>
+                <input type="text" class="form-control" placeholder="Product name" aria-label="Product name" />
+                <span class="input-group-btn">
+                  <button class="btn btn-secondary" type="button">Love it</button>
+                </span>
+              </div>
+            </div>
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary" type="button">Go!</button>
+      </span>
+      <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary" type="button">Go!</button>
+      </span>
+    </div>
+  </div>
+</div>
+<br>
+<div class="row">
+  <div class="col-lg-offset-3 col-lg-6">
+    <div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary" type="button">Hate it</button>
+      </span>
+      <input type="text" class="form-control" placeholder="Product name" aria-label="Product name">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary" type="button">Love it</button>
+      </span>
+    </div>
+  </div>
+</div></xmp></code></pre></div>
+
+          <h2 id="buttons-with-dropdowns">Buttons with dropdowns</h2>
+
+          <div class="bd-example" data-example-id="">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="input-group">
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Action
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with dropdown button" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="input-group">
+                <input type="text" class="form-control" aria-label="Text input with dropdown button" />
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Action
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Action
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div role="separator" class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </div>
+      <input type="text" class="form-control" aria-label="Text input with dropdown button">
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control" aria-label="Text input with dropdown button">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Action
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div role="separator" class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></xmp></code></pre></div>
+
+          <h2 id="segmented-buttons">Segmented buttons</h2>
+
+          <div class="bd-example" data-example-id="">
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="input-group">
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-secondary">Action</button>
+                  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
+                </div>
+                <input type="text" class="form-control" aria-label="Text input with segmented button dropdown" />
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="input-group">
+                <input type="text" class="form-control" aria-label="Text input with segmented button dropdown" />
+                <div class="input-group-btn">
+                  <button type="button" class="btn btn-secondary">Action</button>
+                  <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="sr-only">Toggle Dropdown</span>
+                  </button>
+                  <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Separated link</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-secondary">Action</button>
+        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div role="separator" class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </div>
+      <input type="text" class="form-control" aria-label="Text input with segmented button dropdown">
+    </div>
+  </div>
+  <div class="col-lg-6">
+    <div class="input-group">
+      <input type="text" class="form-control" aria-label="Text input with segmented button dropdown">
+      <div class="input-group-btn">
+        <button type="button" class="btn btn-secondary">Action</button>
+        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+          <div role="separator" class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></xmp></code></pre></div>
+
+          <h2 id="accessibility">Accessibility</h2>
+
+          <p>Screen readers will have trouble with your forms if you don’t include a label for every input. For these input groups, ensure that any additional label or functionality is conveyed to assistive technologies.</p>
+
+          <p>The exact technique to be used (<code class="highlighter-rouge">&lt;label&gt;</code> elements hidden using the <code class="highlighter-rouge">.sr-only</code> class, or use of the <code class="highlighter-rouge">aria-label</code> and <code class="highlighter-rouge">aria-labelledby</code> attributes, possibly in combination with <code class="highlighter-rouge">aria-describedby</code>) and what additional information will need to be conveyed will vary depending on the exact type of interface widget you’re implementing. The examples in this section provide a few suggested, case-specific approaches.</p>
+
+        </main>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="../js/scripts.js"></script>
+    <script src="../js/prism.js"></script>
+
+  </body>
+</html>

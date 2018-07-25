@@ -1,0 +1,7 @@
+.alert {
+  font-size: $font-size-sm;
+}
+
+.alert p:last-child {
+  margin-bottom: 0;
+}

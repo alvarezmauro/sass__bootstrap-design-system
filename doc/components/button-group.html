@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>act-ui-framework - Style Guide</title>
+    <meta name="description" content="act-ui-framework - Style Guide">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- <link href="../bootstrap-theme/dist/css/bootstrap-theme.css" rel="stylesheet"> -->
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/prism.css" rel="stylesheet">
+    <style>
+      /* Fixed navbar */
+      body {
+        min-height: 75rem;
+        padding-top: 4.5rem;
+      }
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="../index.html">Bootstrap UI Framework - Style Guide - Components - Alerts</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+      </ul>
+      <a class="btn btn-bd-yellow d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="https://getbootstrap.com/" target="_blank">getbootstrap.com</a>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+          <nav class="collapse bd-links" id="bd-docs-nav">
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../layout/overview.html">
+                Layout
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../layout/overview.html">
+                    Overview
+                  </a>
+                </li>
+                <li>
+                  <a href="../layout/grid.html">
+                    Grid
+                  </a>
+                </li>
+                <li>
+                  <a href="../layout/media-object.html">
+                    Media object
+                  </a>
+                </li>
+                <li>
+                  <a href="../layout/utilities-for-layout.html">
+                    Utilities for layout
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../content/reboot.html">
+                Content
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../content/reboot.html">
+                    Reboot
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/typography.html">
+                    Typography
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/code.html">
+                    Code
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/images.html">
+                    Images
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/tables.html">
+                    Tables
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/figures.html">
+                    Figures
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item active">
+              <a class="bd-toc-link" href="../components/alerts.html">
+                Components
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../components/alerts.html">
+                    Alerts
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/badge.html">
+                    Badge
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/breadcrumb.html">
+                    Breadcrumb
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/buttons.html">
+                    Buttons
+                  </a>
+                </li>
+                <li class="active bd-sidenav-active">
+                  <a href="../components/button-group.html">
+                    Button group
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/card.html">
+                    Card
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/carousel.html">
+                    Carousel
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/collapse.html">
+                    Collapse
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/dropdowns.html">
+                    Dropdowns
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/forms.html">
+                    Forms
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/input-group.html">
+                    Input group
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/jumbotron.html">
+                    Jumbotron
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/list-group.html">
+                    List group
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/modal.html">
+                    Modal
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/navs.html">
+                    Navs
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/navbar.html">
+                    Navbar
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/pagination.html">
+                    Pagination
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/popovers.html">
+                    Popovers
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/progress.html">
+                    Progress
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/scrollspy.html">
+                    Scrollspy
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/tooltips.html">
+                    Tooltips
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../utilities/borders.html">
+                Utilities
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../utilities/borders.html">
+                    Borders
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/clearfix.html">
+                    Clearfix
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/close-icon.html">
+                    Close icon
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/colors.html">
+                    Colors
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/display.html">
+                    Display
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/embed.html">
+                    Embed
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/flex.html">
+                    Flex
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/float.html">
+                    Float
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/image-replacement.html">
+                    Image replacement
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/position.html">
+                    Position
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/screenreaders.html">
+                    Screenreaders
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/sizing.html">
+                    Sizing
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/spacing.html">
+                    Spacing
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/text.html">
+                    Text
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/vertical-align.html">
+                    Vertical align
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/visibility.html">
+                    Visibility
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../patterns/patterns.html">
+                Patterns
+              </a>
+            </div>
+          </nav>
+        </div>
+
+        <div class="d-none d-xl-block col-xl-2 bd-toc">
+          <ul class="section-nav">
+            <li class="toc-entry toc-h2"><a href="#basic-example">Basic example</a>
+              <ul>
+                <ul>
+                  <li class="toc-entry toc-h4"><a href="#ensure-correct-role-and-provide-a-label">Ensure correct role and provide a label</a></li>
+                </ul>
+              </ul>
+            </li>
+            <li class="toc-entry toc-h2"><a href="#button-toolbar">Button toolbar</a></li>
+            <li class="toc-entry toc-h2"><a href="#sizing">Sizing</a></li>
+            <li class="toc-entry toc-h2"><a href="#nesting">Nesting</a></li>
+            <li class="toc-entry toc-h2"><a href="#vertical-variation">Vertical variation</a></li>
+            <li class="toc-entry toc-h2"><a href="#tooltips-and-popovers">Tooltips and popovers</a></li>
+          </ul>
+        </div>
+
+        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+
+          <h1 class="bd-title" id="content">Button group</h1>
+          <p class="bd-lead">Group a series of buttons together on a single line with the button group, and super-power them with JavaScript.</p>
+
+          <h2 id="basic-example">Basic example</h2>
+
+          <p>Wrap a series of buttons with <code class="highlighter-rouge">.btn</code> in <code class="highlighter-rouge">.btn-group</code>. Add on optional JavaScript radio and checkbox style behavior with <a href="/docs/4.0/components/buttons/#button-plugin">our buttons plugin</a>.</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-secondary">Left</button>
+            <button type="button" class="btn btn-secondary">Middle</button>
+            <button type="button" class="btn btn-secondary">Right</button>
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-secondary">Left</button>
+  <button type="button" class="btn btn-secondary">Middle</button>
+  <button type="button" class="btn btn-secondary">Right</button>
+</div></xmp></code></pre></div>
+
+          <div class="bd-callout bd-callout-warning">
+          <h4 id="ensure-correct-role-and-provide-a-label">Ensure correct <code class="highlighter-rouge">role</code> and provide a label</h4>
+
+          <p>In order for assistive technologies (such as screen readers) to convey that a series of buttons is grouped, an appropriate <code class="highlighter-rouge">role</code> attribute needs to be provided. For button groups, this would be <code class="highlighter-rouge">role="group"</code>, while toolbars should have a <code class="highlighter-rouge">role="toolbar"</code>.</p>
+
+          <p>In addition, groups and toolbars should be given an explicit label, as most assistive technologies will otherwise not announce them, despite the presence of the correct role attribute. In the examples provided here, we use <code class="highlighter-rouge">aria-label</code>, but alternatives such as <code class="highlighter-rouge">aria-labelledby</code> can also be used.</p>
+          </div>
+          <h2 id="button-toolbar">Button toolbar</h2>
+
+          <p>Combine sets of button groups into button toolbars for more complex components. Use utility classes as needed to space out groups, buttons, and more.</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group mr-2" role="group" aria-label="First group">
+              <button type="button" class="btn btn-secondary">1</button>
+              <button type="button" class="btn btn-secondary">2</button>
+              <button type="button" class="btn btn-secondary">3</button>
+              <button type="button" class="btn btn-secondary">4</button>
+            </div>
+            <div class="btn-group mr-2" role="group" aria-label="Second group">
+              <button type="button" class="btn btn-secondary">5</button>
+              <button type="button" class="btn btn-secondary">6</button>
+              <button type="button" class="btn btn-secondary">7</button>
+            </div>
+            <div class="btn-group" role="group" aria-label="Third group">
+              <button type="button" class="btn btn-secondary">8</button>
+            </div>
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="First group">
+    <button type="button" class="btn btn-secondary">1</button>
+    <button type="button" class="btn btn-secondary">2</button>
+    <button type="button" class="btn btn-secondary">3</button>
+    <button type="button" class="btn btn-secondary">4</button>
+  </div>
+  <div class="btn-group mr-2" role="group" aria-label="Second group">
+    <button type="button" class="btn btn-secondary">5</button>
+    <button type="button" class="btn btn-secondary">6</button>
+    <button type="button" class="btn btn-secondary">7</button>
+  </div>
+  <div class="btn-group" role="group" aria-label="Third group">
+    <button type="button" class="btn btn-secondary">8</button>
+  </div>
+</div></xmp></code></pre></div>
+
+          <p>Feel free to mix input groups with button groups in your toolbars. Similar to the example above, you’ll likely need some utilities though to space things properly.</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group mr-2" role="group" aria-label="First group">
+              <button type="button" class="btn btn-secondary">1</button>
+              <button type="button" class="btn btn-secondary">2</button>
+              <button type="button" class="btn btn-secondary">3</button>
+              <button type="button" class="btn btn-secondary">4</button>
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon" id="btnGroupAddon">@</span>
+              <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon" />
+            </div>
+          </div>
+
+          <div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group" role="group" aria-label="First group">
+              <button type="button" class="btn btn-secondary">1</button>
+              <button type="button" class="btn btn-secondary">2</button>
+              <button type="button" class="btn btn-secondary">3</button>
+              <button type="button" class="btn btn-secondary">4</button>
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon" id="btnGroupAddon2">@</span>
+              <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon2" />
+            </div>
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="btn-toolbar mb-3" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group mr-2" role="group" aria-label="First group">
+    <button type="button" class="btn btn-secondary">1</button>
+    <button type="button" class="btn btn-secondary">2</button>
+    <button type="button" class="btn btn-secondary">3</button>
+    <button type="button" class="btn btn-secondary">4</button>
+  </div>
+  <div class="input-group">
+    <span class="input-group-addon" id="btnGroupAddon">@</span>
+    <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon">
+  </div>
+</div>
+
+<div class="btn-toolbar justify-content-between" role="toolbar" aria-label="Toolbar with button groups">
+  <div class="btn-group" role="group" aria-label="First group">
+    <button type="button" class="btn btn-secondary">1</button>
+    <button type="button" class="btn btn-secondary">2</button>
+    <button type="button" class="btn btn-secondary">3</button>
+    <button type="button" class="btn btn-secondary">4</button>
+  </div>
+  <div class="input-group">
+    <span class="input-group-addon" id="btnGroupAddon2">@</span>
+    <input type="text" class="form-control" placeholder="Input group example" aria-label="Input group example" aria-describedby="btnGroupAddon2">
+  </div>
+</div></xmp></code></pre></div>
+
+          <h2 id="sizing">Sizing</h2>
+
+          <p>Instead of applying button sizing classes to every button in a group, just add <code class="highlighter-rouge">.btn-group-*</code> to each <code class="highlighter-rouge">.btn-group</code>, including each one when nesting multiple groups.</p>
+
+          <div class="bd-example">
+            <div class="btn-group btn-group-lg" role="group" aria-label="Large button group">
+              <button type="button" class="btn btn-secondary">Left</button>
+              <button type="button" class="btn btn-secondary">Middle</button>
+              <button type="button" class="btn btn-secondary">Right</button>
+            </div>
+            <br />
+            <div class="btn-group" role="group" aria-label="Default button group">
+              <button type="button" class="btn btn-secondary">Left</button>
+              <button type="button" class="btn btn-secondary">Middle</button>
+              <button type="button" class="btn btn-secondary">Right</button>
+            </div>
+            <br />
+            <div class="btn-group btn-group-sm" role="group" aria-label="Small button group">
+              <button type="button" class="btn btn-secondary">Left</button>
+              <button type="button" class="btn btn-secondary">Middle</button>
+              <button type="button" class="btn btn-secondary">Right</button>
+            </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="btn-group btn-group-lg" role="group" aria-label="...">...</div>
+<div class="btn-group" role="group" aria-label="...">...</div>
+<div class="btn-group btn-group-sm" role="group" aria-label="...">...</div></xmp></code></pre></div>
+
+          <h2 id="nesting">Nesting</h2>
+
+          <p>Place a <code class="highlighter-rouge">.btn-group</code> within another <code class="highlighter-rouge">.btn-group</code> when you want dropdown menus mixed with a series of buttons.</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <button type="button" class="btn btn-secondary">1</button>
+            <button type="button" class="btn btn-secondary">2</button>
+
+            <div class="btn-group" role="group">
+              <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </button>
+              <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                <a class="dropdown-item" href="#">Dropdown link</a>
+                <a class="dropdown-item" href="#">Dropdown link</a>
+              </div>
+            </div>
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+  <button type="button" class="btn btn-secondary">1</button>
+  <button type="button" class="btn btn-secondary">2</button>
+
+  <div class="btn-group" role="group">
+    <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown
+    </button>
+    <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+      <a class="dropdown-item" href="#">Dropdown link</a>
+      <a class="dropdown-item" href="#">Dropdown link</a>
+    </div>
+  </div>
+</div></xmp></code></pre></div>
+
+          <h2 id="vertical-variation">Vertical variation</h2>
+
+          <p>Make a set of buttons appear vertically stacked rather than horizontally. <strong>Split button dropdowns are not supported here.</strong></p>
+
+          <div class="bd-example">
+            <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+              <button type="button" class="btn btn-secondary">Button</button>
+              <button type="button" class="btn btn-secondary">Button</button>
+              <button type="button" class="btn btn-secondary">Button</button>
+              <button type="button" class="btn btn-secondary">Button</button>
+              <button type="button" class="btn btn-secondary">Button</button>
+              <button type="button" class="btn btn-secondary">Button</button>
+            </div>
+          </div>
+
+          <div class="bd-example">
+            <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+              <button type="button" class="btn btn-secondary">Button</button>
+              <button type="button" class="btn btn-secondary">Button</button>
+              <div class="btn-group" role="group">
+                <button id="btnGroupVerticalDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupVerticalDrop1">
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+              </div>
+              <button type="button" class="btn btn-secondary">Button</button>
+              <button type="button" class="btn btn-secondary">Button</button>
+              <div class="btn-group" role="group">
+                <button id="btnGroupVerticalDrop2" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupVerticalDrop2">
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+              </div>
+              <div class="btn-group" role="group">
+                <button id="btnGroupVerticalDrop3" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupVerticalDrop3">
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+              </div>
+              <div class="btn-group" role="group">
+                <button id="btnGroupVerticalDrop4" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </button>
+                <div class="dropdown-menu" aria-labelledby="btnGroupVerticalDrop4">
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                  <a class="dropdown-item" href="#">Dropdown link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="btn-group-vertical">
+  ...
+</div></xmp></code></pre></div>
+
+          <h2 id="tooltips-and-popovers">Tooltips and popovers</h2>
+
+          <p>Due to the specific implementation (and some other components), a bit of special casing is required for tooltips and popovers within button groups. <strong>You’ll have to specify the option <code class="highlighter-rouge">container: 'body'</code></strong> to avoid unwanted side effects (such as the element growing wider and/or losing its rounded corners when the tooltip or popover is triggered).</p>
+
+        </main>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="../js/scripts.js"></script>
+    <script src="../js/prism.js"></script>
+
+  </body>
+</html>

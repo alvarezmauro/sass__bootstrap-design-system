@@ -1,0 +1,174 @@
+//
+// Custom overrides not contained in _variables.scss
+//
+// Salesforce Classess override
+.slds-col_padded,
+.slds-col--padded {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.siteforceNapiliBody .cCenterPanel {
+  max-width: none;
+}
+
+
+.slds-col .ui-widget,
+.slds-col--padded .ui-widget,
+.cb-drop-container .ui-widget {
+  margin: 0;
+}
+
+.siteforcePanelsContainer.hideEl, 
+.siteforcePanelsContainer .hideEl,
+.forceComponentSpinner.hideEl,
+.forceInlineSpinner.hideEl {
+  display:none
+}
+
+.forceSkipLink {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 6px 12px;
+  color: #3c3d3d;
+  background: hsla(0, 0%, 100%, .98)
+}
+
+.forceSkipLink:focus {
+  width: auto;
+  height: auto;
+  clip: auto;
+  z-index: 1000
+}
+
+.forceToastMessage .toastIcon {
+  width: 1.5rem;
+  height: 1.5rem
+}
+
+.siteforceLoadingBalls.loadingCon,
+.loading #NapiliCommunityTemplateLoader .siteforceLoadingBalls.loadingCon {
+  -webkit-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s;
+  margin-top: 10px
+}
+
+.siteforceLoadingBalls.global {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 2px;
+  padding: 40px;
+  color: #ccc;
+  top: 50%;
+  left: 50%;
+  margin-left: -86px;
+  margin-top: -50px;
+  position: fixed;
+  z-index: 99999;
+  display: block;
+  font-size: 20px
+}
+
+.loading #NapiliCommunityTemplateLoader .siteforceLoadingBalls.loadingCon,
+.siteforceLoadingBalls.loadingCon {
+  -webkit-transition: all .3s ease-in-out 0s;
+  transition: all .3s ease-in-out 0s;
+  margin-top: 10px
+}
+
+.loading #NapiliCommunityTemplateLoader .siteforceLoadingBalls .loadingBall,
+.siteforceLoadingBalls .loadingBall {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: 1em;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  -webkit-animation-delay: -.48s;
+  animation-delay: -.48s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  background-color: #c2cacf;
+  margin-right: 16px
+}
+
+.siteforceLoadingBalls.global {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 2px;
+  padding: 40px;
+  color: #ccc;
+  top: 50%;
+  left: 50%;
+  margin-left: -86px;
+  margin-top: -50px;
+  position: fixed;
+  z-index: 99999;
+  display: block;
+  font-size: 20px
+}
+
+.loading #NapiliCommunityTemplateLoader .siteforceLoadingBalls .loadingBall.second,
+.siteforceLoadingBalls .loadingBall.second {
+  -webkit-animation-delay: -.32s;
+  animation-delay: -.32s
+}
+
+.loading #NapiliCommunityTemplateLoader .siteforceLoadingBalls .loadingBall.third,
+.siteforceLoadingBalls .loadingBall.third {
+  -webkit-animation-delay: -.16s;
+  animation-delay: -.16s;
+  margin-right: 0
+}
+
+.siteforceLoadingBalls.loadingInlineIndicator {
+  text-align: center;
+  margin-bottom: 10px
+}
+
+.siteforceLoadingBalls .assistiveText {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  margin: -1px
+}
+
+.siteforceSpinnerManager .mask {
+  background-color: #000;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  z-index: 99999;
+  margin-left: 40px
+}
+
+.siteforceSpinnerManager .spinner {
+  text-align: center;
+  background: rgb(22, 50, 92);
+  opacity: .4;
+  border-radius: 2px;
+  padding: 35px;
+  color: #ffffff;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  position: fixed;
+  z-index: 99999;
+  display: block;
+  font-size: 30px
+}
+

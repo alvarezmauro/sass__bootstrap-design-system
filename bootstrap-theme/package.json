@@ -1,0 +1,35 @@
+{
+  "name": "bootstrap-ui-framework",
+  "version": "0.0.1",
+  "description": "Bootstrap UI Framework (styleguide and design patterns)",
+  "author": "Mauro Alvarez",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "bootstrap-datepicker": "^1.7.1",
+    "moment": "2.20.1",
+    "popper.js": "1.12.9"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-archiver": "^1.0.0",
+    "gulp-bower": "0.0.14",
+    "gulp-concat": "^2.6.1",
+    "gulp-file": "^0.4.0",
+    "gulp-jsforce-deploy": "^1.1.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "jquery": "^3.3.1",
+    "merge-stream": "^1.0.1",
+    "pxml": "^0.2.3"
+  }
+}

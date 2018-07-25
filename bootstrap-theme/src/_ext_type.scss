@@ -1,0 +1,18 @@
+
+blockquote {
+  border-left: 2px solid #CCCCCC;
+  padding-left: 1.5rem;
+}
+.blockquote-footer {
+  font-size: 100%;
+  margin-top: 1.5rem;
+}
+
+ol, ul, dl {
+  list-style: disc;
+  padding: 0 0 0 40px;
+}
+
+ul ul, ol ul {
+    list-style-type: disc;
+}

@@ -1,0 +1,583 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap UI Framework - Style Guide - Components - Alerts</title>
+    <meta name="description" content="act-ui-framework - Style Guide">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- <link href="../bootstrap-theme/dist/css/bootstrap-theme.css" rel="stylesheet"> -->
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/prism.css" rel="stylesheet">
+    <style>
+      /* Fixed navbar */
+      body {
+        min-height: 75rem;
+        padding-top: 4.5rem;
+      }
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="../index.html">Bootstrap UI Framework - Style Guide - Components - Alerts</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+      </ul>
+      <a class="btn btn-bd-yellow d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="https://getbootstrap.com/" target="_blank">getbootstrap.com</a>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+          <nav class="collapse bd-links" id="bd-docs-nav">
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../layout/overview.html">
+                Layout
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../layout/overview.html">
+                    Overview
+                  </a>
+                </li>
+                <li>
+                  <a href="../layout/grid.html">
+                    Grid
+                  </a>
+                </li>
+                <li>
+                  <a href="../layout/media-object.html">
+                    Media object
+                  </a>
+                </li>
+                <li>
+                  <a href="../layout/utilities-for-layout.html">
+                    Utilities for layout
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../content/reboot.html">
+                Content
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../content/reboot.html">
+                    Reboot
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/typography.html">
+                    Typography
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/code.html">
+                    Code
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/images.html">
+                    Images
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/tables.html">
+                    Tables
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/figures.html">
+                    Figures
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item active">
+              <a class="bd-toc-link" href="../components/alerts.html">
+                Components
+              </a>
+              <ul class="nav bd-sidenav">
+                <li class="active bd-sidenav-active">
+                  <a href="../components/alerts.html">
+                    Alerts
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/badge.html">
+                    Badge
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/breadcrumb.html">
+                    Breadcrumb
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/buttons.html">
+                    Buttons
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/button-group.html">
+                    Button group
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/card.html">
+                    Card
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/carousel.html">
+                    Carousel
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/collapse.html">
+                    Collapse
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/dropdowns.html">
+                    Dropdowns
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/forms.html">
+                    Forms
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/input-group.html">
+                    Input group
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/jumbotron.html">
+                    Jumbotron
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/list-group.html">
+                    List group
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/modal.html">
+                    Modal
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/navs.html">
+                    Navs
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/navbar.html">
+                    Navbar
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/pagination.html">
+                    Pagination
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/popovers.html">
+                    Popovers
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/progress.html">
+                    Progress
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/scrollspy.html">
+                    Scrollspy
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/tooltips.html">
+                    Tooltips
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../utilities/borders.html">
+                Utilities
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../utilities/borders.html">
+                    Borders
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/clearfix.html">
+                    Clearfix
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/close-icon.html">
+                    Close icon
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/colors.html">
+                    Colors
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/display.html">
+                    Display
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/embed.html">
+                    Embed
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/flex.html">
+                    Flex
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/float.html">
+                    Float
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/image-replacement.html">
+                    Image replacement
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/position.html">
+                    Position
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/screenreaders.html">
+                    Screenreaders
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/sizing.html">
+                    Sizing
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/spacing.html">
+                    Spacing
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/text.html">
+                    Text
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/vertical-align.html">
+                    Vertical align
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/visibility.html">
+                    Visibility
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../patterns/patterns.html">
+                Patterns
+              </a>
+            </div>
+          </nav>
+        </div>
+
+        <div class="d-none d-xl-block col-xl-2 bd-toc">
+          <ul class="section-nav">
+            <li class="toc-entry toc-h2"><a href="#examples">Examples</a>
+              <ul>
+                <ul>
+                  <li class="toc-entry toc-h4"><a href="#conveying-meaning-to-assistive-technologies">Conveying meaning to assistive technologies</a></li>
+                </ul>
+                <li class="toc-entry toc-h3"><a href="#link-color">Link color</a></li>
+                <li class="toc-entry toc-h3"><a href="#additional-content">Additional content</a>
+                  <ul>
+                    <li class="toc-entry toc-h4"><a href="#well-done">Well done!</a></li>
+                  </ul>
+                </li>
+                <li class="toc-entry toc-h3"><a href="#dismissing">Dismissing</a></li>
+              </ul>
+            </li>
+            <li class="toc-entry toc-h2"><a href="#javascript-behavior">JavaScript behavior</a>
+              <ul>
+                <li class="toc-entry toc-h3"><a href="#triggers">Triggers</a></li>
+                <li class="toc-entry toc-h3"><a href="#methods">Methods</a></li>
+                <li class="toc-entry toc-h3"><a href="#events">Events</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+
+          <h1 class="bd-title" id="content">Alerts</h1>
+          <p class="bd-lead">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
+
+          <h2 id="examples">Examples</h2>
+
+          <p>Alerts are available for any length of text, as well as an optional dismiss button. For proper styling, use one of the four <strong>required</strong> contextual classes (e.g., <code class="highlighter-rouge">.alert-success</code>). For inline dismissal, use the <a href="#dismissing">alerts jQuery plugin</a>.</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="alert alert-primary" role="alert">
+            This is a primary alert—check it out!
+          </div>
+          <div class="alert alert-secondary" role="alert">
+            This is a secondary alert—check it out!
+          </div>
+          <div class="alert alert-success" role="alert">
+            This is a success alert—check it out!
+          </div>
+          <div class="alert alert-danger" role="alert">
+            This is a danger alert—check it out!
+          </div>
+          <div class="alert alert-warning" role="alert">
+            This is a warning alert—check it out!
+          </div>
+          <div class="alert alert-info" role="alert">
+            This is a info alert—check it out!
+          </div>
+          <div class="alert alert-light" role="alert">
+            This is a light alert—check it out!
+          </div>
+          <div class="alert alert-dark" role="alert">
+            This is a dark alert—check it out!
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="alert alert-primary" role="alert">
+  This is a primary alert—check it out!
+</div>
+<div class="alert alert-secondary" role="alert">
+  This is a secondary alert—check it out!
+</div>
+<div class="alert alert-success" role="alert">
+  This is a success alert—check it out!
+</div>
+<div class="alert alert-danger" role="alert">
+  This is a danger alert—check it out!
+</div>
+<div class="alert alert-warning" role="alert">
+  This is a warning alert—check it out!
+</div>
+<div class="alert alert-info" role="alert">
+  This is a info alert—check it out!
+</div>
+<div class="alert alert-light" role="alert">
+  This is a light alert—check it out!
+</div>
+<div class="alert alert-dark" role="alert">
+  This is a dark alert—check it out!
+</div></xmp></code></pre></div>
+
+          <div class="bd-callout bd-callout-warning">
+          <h4 id="conveying-meaning-to-assistive-technologies">Conveying meaning to assistive technologies</h4>
+
+          <p>Using color to add meaning only provides a visual indication, which will not be conveyed to users of assistive technologies – such as screen readers. Ensure that information denoted by the color is either obvious from the content itself (e.g. the visible text), or is included through alternative means, such as additional text hidden with the <code class="highlighter-rouge">.sr-only</code> class.</p>
+          </div>
+
+          <h3 id="link-color">Link color</h3>
+
+          <p>Use the <code class="highlighter-rouge">.alert-link</code> utility class to quickly provide matching colored links within any alert.</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="alert alert-primary" role="alert">
+            This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-secondary" role="alert">
+            This is a secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-success" role="alert">
+            This is a success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-danger" role="alert">
+            This is a danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-warning" role="alert">
+            This is a warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-info" role="alert">
+            This is a info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-light" role="alert">
+            This is a light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          <div class="alert alert-dark" role="alert">
+            This is a dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="alert alert-primary" role="alert">
+  This is a primary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-secondary" role="alert">
+  This is a secondary alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-success" role="alert">
+  This is a success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-danger" role="alert">
+  This is a danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-warning" role="alert">
+  This is a warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-info" role="alert">
+  This is a info alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-light" role="alert">
+  This is a light alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div>
+<div class="alert alert-dark" role="alert">
+  This is a dark alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+</div></xmp></code></pre></div>
+
+          <h3 id="additional-content">Additional content</h3>
+
+          <p>Alerts can also contain additional HTML elements like headings, paragraphs and dividers.</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="alert alert-success" role="alert">
+            <h4 class="alert-heading">Well done!</h4>
+            <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+            <hr />
+            <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="alert alert-success" role="alert">
+  <h4 class="alert-heading">Well done!</h4>
+  <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+  <hr>
+  <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+</div></xmp></code></pre></div>
+
+          <h3 id="dismissing">Dismissing</h3>
+
+          <p>Using the alert JavaScript plugin, it’s possible to dismiss any alert inline. Here’s how:</p>
+
+          <ul>
+            <li>Be sure you’ve loaded the alert plugin, or the compiled Bootstrap JavaScript.</li>
+            <li>Add a dismiss button and the <code class="highlighter-rouge">.alert-dismissible</code> class, which adds extra padding to the right of the alert and positions the <code class="highlighter-rouge">.close</code> button.</li>
+            <li>On the dismiss button, add the <code class="highlighter-rouge">data-dismiss="alert"</code> attribute, which triggers the JavaScript functionality. Be sure to use the <code class="highlighter-rouge">&lt;button&gt;</code> element with it for proper behavior across all devices.</li>
+            <li>To animate alerts when dismissing them, be sure to add the <code class="highlighter-rouge">.fade</code> and <code class="highlighter-rouge">.show</code> classes.</li>
+          </ul>
+
+          <p>You can see this in action with a live demo:</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+</div></xmp></code></pre></div>
+
+          <h2 id="javascript-behavior">JavaScript behavior</h2>
+
+          <h3 id="triggers">Triggers</h3>
+
+          <p>Enable dismissal of an alert via JavaScript:</p>
+
+<div class="highlight"><pre><code class="language-js">$(".alert").alert()</code></pre></div>
+
+          <p>Or with <code class="highlighter-rouge">data</code> attributes on a button <strong>within the alert</strong>, as demonstrated above:</p>
+
+<div class="highlight"><pre><code class="language-html"><xmp><button type="button" class="close" data-dismiss="alert" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+</button></xmp></code></pre></div>
+
+          <p>Note that closing an alert will remove it from the DOM.</p>
+
+          <h3 id="methods">Methods</h3>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Method</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="highlighter-rouge">$().alert()</code></td>
+                <td>Makes an alert listen for click events on descendant elements which have the <code class="highlighter-rouge">data-dismiss="alert"</code> attribute. (Not necessary when using the data-api’s auto-initialization.)</td>
+              </tr>
+              <tr>
+                <td><code class="highlighter-rouge">$().alert('close')</code></td>
+                <td>Closes an alert by removing it from the DOM. If the <code class="highlighter-rouge">.fade</code> and <code class="highlighter-rouge">.show</code> classes are present on the element, the alert will fade out before it is removed.</td>
+              </tr>
+            </tbody>
+          </table>
+
+<div class="highlight"><pre><code class="language-js">$(".alert").alert('close')</code></pre></div>
+
+          <h3 id="events">Events</h3>
+
+          <p>Bootstrap’s alert plugin exposes a few events for hooking into alert functionality.</p>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Event</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="highlighter-rouge">close.bs.alert</code></td>
+                <td>This event fires immediately when the <code>close</code> instance method is called.</td>
+              </tr>
+              <tr>
+                <td><code class="highlighter-rouge">closed.bs.alert</code></td>
+                <td>This event is fired when the alert has been closed (will wait for CSS transitions to complete).</td>
+              </tr>
+            </tbody>
+          </table>
+
+<div class="highlight"><pre><code class="language-js">$('#myAlert').on('closed.bs.alert', function () {
+  // do something…
+})</code></pre></div>
+
+        </main>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="../js/scripts.js"></script>
+    <script src="../js/prism.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,48 @@
+
+.btn {
+
+  font-size: 1rem !important;
+
+  &:hover,
+  &.hover,
+  &:focus,
+  &.focus,
+  &:active,
+  &.active {
+    text-decoration: underline;
+  }
+
+  &.btn-default {
+    border-color: $gray-500;
+    background-color: $white;
+
+    &:hover,
+    &.hover,
+    &:focus,
+    &.focus,
+    &:active,
+    &.active {
+      background-color: $gray-200;
+    }
+  }
+
+  &.btn-primary {
+    border-color: #48A4E2;
+  }
+  &.btn-secondary {
+    border-color: $gray-600;
+  }
+  &.btn-success {
+    border-color: #02BF5D;
+  }
+  &.btn-danger {
+    border-color: #FB503D;
+  }
+  &.btn-warning {
+    color: $white;
+    border-color: #EBAF34;
+  }
+  &.btn-info {
+    border-color: #48A4E2;
+  }
+}

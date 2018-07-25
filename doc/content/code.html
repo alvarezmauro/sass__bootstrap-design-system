@@ -1,0 +1,391 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap UI Framework - Style Guide - Content - Code</title>
+    <meta name="description" content="act-ui-framework - Style Guide">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- <link href="../bootstrap-theme/dist/css/bootstrap-theme.css" rel="stylesheet"> -->
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/prism.css" rel="stylesheet">
+    <style>
+      /* Fixed navbar */
+      body {
+        min-height: 75rem;
+        padding-top: 4.5rem;
+      }
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="../index.html">Bootstrap UI Framework - Style Guide - Content - Code</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+      </ul>
+      <a class="btn btn-bd-yellow d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="https://getbootstrap.com/" target="_blank">getbootstrap.com</a>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+          <nav class="collapse bd-links" id="bd-docs-nav">
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../layout/overview.html">
+                Layout
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../layout/overview.html">
+                    Overview
+                  </a>
+                </li>
+                <li>
+                  <a href="../layout/grid.html">
+                    Grid
+                  </a>
+                </li>
+                <li>
+                  <a href="../layout/media-object.html">
+                    Media object
+                  </a>
+                </li>
+                <li>
+                  <a href="../layout/utilities-for-layout.html">
+                    Utilities for layout
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item active">
+              <a class="bd-toc-link" href="../content/reboot.html">
+                Content
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../content/reboot.html">
+                    Reboot
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/typography.html">
+                    Typography
+                  </a>
+                </li>
+                <li class="active bd-sidenav-active">
+                  <a href="../content/code.html">
+                    Code
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/images.html">
+                    Images
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/tables.html">
+                    Tables
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/figures.html">
+                    Figures
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../components/alerts.html">
+                Components
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../components/alerts.html">
+                    Alerts
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/badge.html">
+                    Badge
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/breadcrumb.html">
+                    Breadcrumb
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/buttons.html">
+                    Buttons
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/button-group.html">
+                    Button group
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/card.html">
+                    Card
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/carousel.html">
+                    Carousel
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/collapse.html">
+                    Collapse
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/dropdowns.html">
+                    Dropdowns
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/forms.html">
+                    Forms
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/input-group.html">
+                    Input group
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/jumbotron.html">
+                    Jumbotron
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/list-group.html">
+                    List group
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/modal.html">
+                    Modal
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/navs.html">
+                    Navs
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/navbar.html">
+                    Navbar
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/pagination.html">
+                    Pagination
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/popovers.html">
+                    Popovers
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/progress.html">
+                    Progress
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/scrollspy.html">
+                    Scrollspy
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/tooltips.html">
+                    Tooltips
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../utilities/borders.html">
+                Utilities
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../utilities/borders.html">
+                    Borders
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/clearfix.html">
+                    Clearfix
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/close-icon.html">
+                    Close icon
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/colors.html">
+                    Colors
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/display.html">
+                    Display
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/embed.html">
+                    Embed
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/flex.html">
+                    Flex
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/float.html">
+                    Float
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/image-replacement.html">
+                    Image replacement
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/position.html">
+                    Position
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/screenreaders.html">
+                    Screenreaders
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/sizing.html">
+                    Sizing
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/spacing.html">
+                    Spacing
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/text.html">
+                    Text
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/vertical-align.html">
+                    Vertical align
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/visibility.html">
+                    Visibility
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../patterns/patterns.html">
+                Patterns
+              </a>
+            </div>
+          </nav>
+        </div>
+
+        <div class="d-none d-xl-block col-xl-2 bd-toc">
+          <ul class="section-nav">
+            <li class="toc-entry toc-h2"><a href="#inline-code">Inline code</a></li>
+            <li class="toc-entry toc-h2"><a href="#code-blocks">Code blocks</a></li>
+            <li class="toc-entry toc-h2"><a href="#variables">Variables</a></li>
+            <li class="toc-entry toc-h2"><a href="#user-input">User input</a></li>
+            <li class="toc-entry toc-h2"><a href="#sample-output">Sample output</a></li>
+          </ul>
+        </div>
+
+        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+
+          <h1 class="bd-title" id="content">Code</h1>
+          <p class="bd-lead">Documentation and examples for displaying inline and multiline blocks of code with Bootstrap.</p>
+
+          <h2 id="inline-code">Inline code</h2>
+
+          <p>Wrap inline snippets of code with <code class="highlighter-rouge">&lt;code&gt;</code>. Be sure to escape HTML angle brackets.</p>
+
+          <div class="bd-example" data-example-id="">
+          For example, <code>&lt;section&gt;</code> should be wrapped as inline.
+          </div>
+          
+<div class="highlight"><pre><code class="language-html"><xmp>For example, <code>&lt;section&gt;</code> should be wrapped as inline.
+</xmp></code></pre></div>
+
+          <h2 id="code-blocks">Code blocks</h2>
+
+          <p>Use <code class="highlighter-rouge">&lt;pre&gt;</code>s for multiple lines of code. Once again, be sure to escape any angle brackets in the code for proper rendering. You may optionally add the <code class="highlighter-rouge">.pre-scrollable</code> class, which will set a max-height of 350px and provide a y-axis scrollbar.</p>
+
+          <div class="bd-example" data-example-id="">
+          <pre><code>&lt;p&gt;Sample text here...&lt;/p&gt;
+          &lt;p&gt;And another line of sample text here...&lt;/p&gt;
+          </code></pre>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><pre><code>&lt;p&gt;Sample text here...&lt;/p&gt;
+&lt;p&gt;And another line of sample text here...&lt;/p&gt;
+</code></pre></xmp></code></pre></div>
+
+          <h2 id="variables">Variables</h2>
+
+          <p>For indicating variables use the <code class="highlighter-rouge">&lt;var&gt;</code> tag.</p>
+
+          <div class="bd-example" data-example-id="">
+          <var>y</var> = <var>m</var><var>x</var> + <var>b</var>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><var>y</var> = <var>m</var><var>x</var> + <var>b</var></xmp></code></pre></div>
+
+          <h2 id="user-input">User input</h2>
+
+          <p>Use the <code class="highlighter-rouge">&lt;kbd&gt;</code> to indicate input that is typically entered via keyboard.</p>
+
+          <div class="bd-example" data-example-id="">
+          To switch directories, type <kbd>cd</kbd> followed by the name of the directory.<br />
+          To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp>To switch directories, type <kbd>cd</kbd> followed by the name of the directory.<br>
+To edit settings, press <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd></xmp></code></pre></div>
+
+          <h2 id="sample-output">Sample output</h2>
+
+          <p>For indicating sample output from a program use the <code class="highlighter-rouge">&lt;samp&gt;</code> tag.</p>
+
+          <div class="bd-example" data-example-id="">
+          <samp>This text is meant to be treated as sample output from a computer program.</samp>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><samp>This text is meant to be treated as sample output from a computer program.</samp></xmp></code></pre></div>
+
+        </main>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="../js/scripts.js"></script>
+    <script src="../js/prism.js"></script>
+
+  </body>
+</html>

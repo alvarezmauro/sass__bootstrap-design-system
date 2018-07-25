@@ -1,0 +1,1029 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bootstrap UI Framework - Style Guide - Components - Dropdowns</title>
+    <meta name="description" content="act-ui-framework - Style Guide">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!-- <link href="../bootstrap-theme/dist/css/bootstrap-theme.css" rel="stylesheet"> -->
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/prism.css" rel="stylesheet">
+    <style>
+      /* Fixed navbar */
+      body {
+        min-height: 75rem;
+        padding-top: 4.5rem;
+      }
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="../index.html">Bootstrap UI Framework - Style Guide - Components - Dropdowns</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#bd-docs-nav" aria-controls="bd-docs-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+      </ul>
+      <a class="btn btn-bd-yellow d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="https://getbootstrap.com/" target="_blank">getbootstrap.com</a>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+          <nav class="collapse bd-links" id="bd-docs-nav">
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../layout/overview.html">
+                Layout
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../layout/overview.html">
+                    Overview
+                  </a>
+                </li>
+                <li>
+                  <a href="../layout/grid.html">
+                    Grid
+                  </a>
+                </li>
+                <li>
+                  <a href="../layout/media-object.html">
+                    Media object
+                  </a>
+                </li>
+                <li>
+                  <a href="../layout/utilities-for-layout.html">
+                    Utilities for layout
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../content/reboot.html">
+                Content
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../content/reboot.html">
+                    Reboot
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/typography.html">
+                    Typography
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/code.html">
+                    Code
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/images.html">
+                    Images
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/tables.html">
+                    Tables
+                  </a>
+                </li>
+                <li>
+                  <a href="../content/figures.html">
+                    Figures
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item active">
+              <a class="bd-toc-link" href="../components/alerts.html">
+                Components
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../components/alerts.html">
+                    Alerts
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/badge.html">
+                    Badge
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/breadcrumb.html">
+                    Breadcrumb
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/buttons.html">
+                    Buttons
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/button-group.html">
+                    Button group
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/card.html">
+                    Card
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/carousel.html">
+                    Carousel
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/collapse.html">
+                    Collapse
+                  </a>
+                </li>
+                <li class="active bd-sidenav-active">
+                  <a href="../components/dropdowns.html">
+                    Dropdowns
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/forms.html">
+                    Forms
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/input-group.html">
+                    Input group
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/jumbotron.html">
+                    Jumbotron
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/list-group.html">
+                    List group
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/modal.html">
+                    Modal
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/navs.html">
+                    Navs
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/navbar.html">
+                    Navbar
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/pagination.html">
+                    Pagination
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/popovers.html">
+                    Popovers
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/progress.html">
+                    Progress
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/scrollspy.html">
+                    Scrollspy
+                  </a>
+                </li>
+                <li>
+                  <a href="../components/tooltips.html">
+                    Tooltips
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../utilities/borders.html">
+                Utilities
+              </a>
+              <ul class="nav bd-sidenav">
+                <li>
+                  <a href="../utilities/borders.html">
+                    Borders
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/clearfix.html">
+                    Clearfix
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/close-icon.html">
+                    Close icon
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/colors.html">
+                    Colors
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/display.html">
+                    Display
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/embed.html">
+                    Embed
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/flex.html">
+                    Flex
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/float.html">
+                    Float
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/image-replacement.html">
+                    Image replacement
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/position.html">
+                    Position
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/screenreaders.html">
+                    Screenreaders
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/sizing.html">
+                    Sizing
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/spacing.html">
+                    Spacing
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/text.html">
+                    Text
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/vertical-align.html">
+                    Vertical align
+                  </a>
+                </li>
+                <li>
+                  <a href="../utilities/visibility.html">
+                    Visibility
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="bd-toc-item ">
+              <a class="bd-toc-link" href="../patterns/patterns.html">
+                Patterns
+              </a>
+            </div>
+          </nav>
+        </div>
+
+        <div class="d-none d-xl-block col-xl-2 bd-toc">
+          <ul class="section-nav">
+            <li class="toc-entry toc-h2"><a href="#overview">Overview</a></li>
+            <li class="toc-entry toc-h2"><a href="#accessibility">Accessibility</a></li>
+            <li class="toc-entry toc-h2"><a href="#examples">Examples</a>
+              <ul>
+                <li class="toc-entry toc-h3"><a href="#single-button-dropdowns">Single button dropdowns</a></li>
+                <li class="toc-entry toc-h3"><a href="#split-button-dropdowns">Split button dropdowns</a></li>
+              </ul>
+            </li>
+            <li class="toc-entry toc-h2"><a href="#sizing">Sizing</a></li>
+            <li class="toc-entry toc-h2"><a href="#dropup-variation">Dropup variation</a></li>
+            <li class="toc-entry toc-h2"><a href="#menu-items">Menu items</a></li>
+            <li class="toc-entry toc-h2"><a href="#menu-alignment">Menu alignment</a></li>
+            <li class="toc-entry toc-h2"><a href="#menu-headers">Menu headers</a>
+              <ul>
+                <ul>
+                  <ul>
+                    <ul>
+                      <li class="toc-entry toc-h6"><a href="#dropdown-header">Dropdown header</a></li>
+                    </ul>
+                  </ul>
+                </ul>
+              </ul>
+            </li>
+            <li class="toc-entry toc-h2"><a href="#menu-dividers">Menu dividers</a></li>
+            <li class="toc-entry toc-h2"><a href="#disabled-menu-items">Disabled menu items</a></li>
+            <li class="toc-entry toc-h2"><a href="#usage">Usage</a>
+              <ul>
+                <li class="toc-entry toc-h3"><a href="#via-data-attributes">Via data attributes</a></li>
+                <li class="toc-entry toc-h3"><a href="#via-javascript">Via JavaScript</a>
+                  <ul>
+                    <ul>
+                      <li class="toc-entry toc-h5"><a href="#data-toggledropdown-still-required">data-toggle="dropdown" still required</a></li>
+                    </ul>
+                  </ul>
+                </li>
+                <li class="toc-entry toc-h3"><a href="#options">Options</a></li>
+                <li class="toc-entry toc-h3"><a href="#methods">Methods</a></li>
+                <li class="toc-entry toc-h3"><a href="#events">Events</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main">
+          <h1 class="bd-title" id="content">Dropdowns</h1>
+          <p class="bd-lead">Toggle contextual overlays for displaying lists of links and more with the Bootstrap dropdown plugin.</p>
+
+          <h2 id="overview">Overview</h2>
+
+          <p>Dropdowns are toggleable, contextual overlays for displaying lists of links and more. They’re made interactive with the included Bootstrap dropdown JavaScript plugin. They’re toggled by clicking, not by hovering; this is <a href="http://markdotto.com/2012/02/27/bootstrap-explained-dropdowns/">an intentional design decision.</a></p>
+
+          <p>Dropdowns are built on a third party library, <a href="https://popper.js.org">Popper.js</a>, which provides dynamic positioning and viewport detection. Be sure to include <a href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">popper.min.js</a> before Bootstrap’s JavaScript.</p>
+
+          <h2 id="accessibility">Accessibility</h2>
+
+          <p>The <a href="https://www.w3.org/TR/wai-aria/"><abbr title="Web Accessibility Initiative">WAI</abbr> <abbr title="Accessible Rich Internet Applications">ARIA</abbr></a> standard defines an actual <a href="https://www.w3.org/TR/wai-aria/roles#menu"><code class="highlighter-rouge">role="menu"</code> widget</a>, but this is specific to application-like menus which trigger actions or functions. <abbr title="Accessible Rich Internet Applications">ARIA</abbr> menus can only contain menu items, checkbox menu items, radio button menu items, radio button groups, and sub-menus.</p>
+
+          <p>Bootstrap’s dropdowns, on the other hand, are designed to be generic and applicable to a variety of situations and markup structures. For instance, it is possible to create dropdowns that contain additional inputs and form controls, such as search fields or login forms. For this reason, Bootstrap does not expect (nor automatically add) any of the <code class="highlighter-rouge">role</code> and <code class="highlighter-rouge">aria-</code> attributes required for true <abbr title="Accessible Rich Internet Applications">ARIA</abbr> menus. Authors will have to include these more specific attributes themselves.</p>
+
+          <p>However, Bootstrap does add built-in support for most standard keyboard menu interactions, such as the ability to move through individual <code class="highlighter-rouge">.dropdown-item</code> elements using the cursor keys and close the menu with the <kbd>ESC</kbd> key.</p>
+
+          <h2 id="examples">Examples</h2>
+
+          <p>Wrap the dropdown’s toggle (your button or link) and the dropdown menu within <code class="highlighter-rouge">.dropdown</code>, or another element that declares <code class="highlighter-rouge">position: relative;</code>. Dropdowns can be triggered from <code class="highlighter-rouge">&lt;a&gt;</code> or <code class="highlighter-rouge">&lt;button&gt;</code> elements to better fit your potential needs.</p>
+
+          <h3 id="single-button-dropdowns">Single button dropdowns</h3>
+
+          <p>Any single <code class="highlighter-rouge">.btn</code> can be turned into a dropdown toggle with some markup changes. Here’s how you can put them to work with either <code class="highlighter-rouge">&lt;button&gt;</code> elements:</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown button
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown button
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div></xmp></code></pre></div>
+
+          <p>And with <code class="highlighter-rouge">&lt;a&gt;</code> elements:</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="dropdown show">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown link
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="dropdown show">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown link
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div></xmp></code></pre></div>
+
+          <p>The best part is you can do this with any button variant, too:</p>
+
+          <div class="bd-example">
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Primary</button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div><!-- /btn-group -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Secondary</button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div><!-- /btn-group -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Success</button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div><!-- /btn-group -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div><!-- /btn-group -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Warning</button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div><!-- /btn-group -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Danger</button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div><!-- /btn-group -->
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><!-- Example single danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Action
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+</div></xmp></code></pre></div>
+
+          <h3 id="split-button-dropdowns">Split button dropdowns</h3>
+
+          <p>Similarly, create split button dropdowns with virtually the same markup as single button dropdowns, but with the addition of <code class="highlighter-rouge">.dropdown-toggle-split</code> for proper spacing around the dropdown caret.</p>
+
+          <p>We use this extra class to reduce the horizontal <code class="highlighter-rouge">padding</code> on either side of the caret by 25% and remove the <code class="highlighter-rouge">margin-left</code> that’s added for regular button dropdowns. Those extra changes keep the caret centered in the split button and provide a more appropriately sized hit area next to the main button.</p>
+
+          <div class="bd-example">
+            <div class="btn-group">
+              <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div><!-- /btn-group -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-secondary">Secondary</button>
+              <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div><!-- /btn-group -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-success">Success</button>
+              <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div><!-- /btn-group -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-info">Info</button>
+              <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div><!-- /btn-group -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-warning">Warning</button>
+              <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div><!-- /btn-group -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-danger">Danger</button>
+              <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div><!-- /btn-group -->
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><!-- Example split danger button -->
+<div class="btn-group">
+  <button type="button" class="btn btn-danger">Action</button>
+  <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+    <div class="dropdown-divider"></div>
+    <a class="dropdown-item" href="#">Separated link</a>
+  </div>
+</div></xmp></code></pre></div>
+
+          <h2 id="sizing">Sizing</h2>
+
+          <p>Button dropdowns work with buttons of all sizes, including default and split dropdown buttons.</p>
+
+          <div class="bd-example">
+            <div class="btn-toolbar" role="toolbar">
+              <div class="btn-group">
+                <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Large button
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div><!-- /btn-group -->
+              <div class="btn-group ml-2">
+                <button type="button" class="btn btn-lg btn-secondary">Large split button</button>
+                <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div><!-- /btn-group -->
+            </div><!-- /btn-toolbar -->
+            <div class="btn-toolbar" role="toolbar">
+              <div class="btn-group">
+                <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Small button
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div><!-- /btn-group -->
+              <div class="btn-group ml-2">
+                <button type="button" class="btn btn-sm btn-secondary">Small split button</button>
+                <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="sr-only">Toggle Dropdown</span>
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Separated link</a>
+                </div>
+              </div><!-- /btn-group -->
+            </div><!-- /btn-toolbar -->
+          </div>
+          <!-- /example -->
+
+<div class="highlight"><pre><code class="language-html"><xmp><!-- Large button groups (default and split) -->
+<div class="btn-group">
+  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Large button
+  </button>
+  <div class="dropdown-menu">
+    ...
+  </div>
+</div>
+<div class="btn-group">
+  <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Large button
+  </button>
+  <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    ...
+  </div>
+</div>
+
+<!-- Small button groups (default and split) -->
+<div class="btn-group">
+  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Small button
+  </button>
+  <div class="dropdown-menu">
+    ...
+  </div>
+</div>
+<div class="btn-group">
+  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Small button
+  </button>
+  <button type="button" class="btn btn-sm btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    ...
+  </div>
+</div></xmp></code></pre></div>
+
+          <h2 id="dropup-variation">Dropup variation</h2>
+
+          <p>Trigger dropdown menus above elements by adding <code class="highlighter-rouge">.dropup</code> to the parent element.</p>
+
+          <div class="bd-example">
+            <div class="btn-group dropup">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropup
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+
+            <div class="btn-group dropup">
+              <button type="button" class="btn btn-secondary">
+                Split dropup
+              </button>
+              <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><!-- Default dropup button -->
+<div class="btn-group dropup">
+  <button type="button" class="btn btn-secondary">Dropup</button>
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    <!-- Dropdown menu links -->
+  </div>
+</div>
+
+<!-- Split dropup button -->
+<div class="btn-group dropup">
+  <button type="button" class="btn btn-secondary">
+    Split dropup
+  </button>
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <div class="dropdown-menu">
+    <!-- Dropdown menu links -->
+  </div>
+</div></xmp></code></pre></div>
+
+          <h2 id="menu-items">Menu items</h2>
+
+          <p>Historically dropdown menu contents <em>had</em> to be links, but that’s no longer the case with v4. Now you can optionally use <code class="highlighter-rouge">&lt;button&gt;</code> elements in your dropdowns instead of just <code class="highlighter-rouge">&lt;a&gt;</code>s.</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <button class="dropdown-item" type="button">Action</button>
+              <button class="dropdown-item" type="button">Another action</button>
+              <button class="dropdown-item" type="button">Something else here</button>
+            </div>
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+    <button class="dropdown-item" type="button">Action</button>
+    <button class="dropdown-item" type="button">Another action</button>
+    <button class="dropdown-item" type="button">Something else here</button>
+  </div>
+</div></xmp></code></pre></div>
+
+          <h2 id="menu-alignment">Menu alignment</h2>
+
+          <p>By default, a dropdown menu is automatically positioned 100% from the top and along the left side of its parent. Add <code class="highlighter-rouge">.dropdown-menu-right</code> to a <code class="highlighter-rouge">.dropdown-menu</code> to right align the dropdown menu.</p>
+
+          <div class="bd-callout bd-callout-info">
+          <p><strong>Heads up!</strong> Dropdowns are positioned only with CSS and may need some additional styles for exact alignment.</p>
+          </div>
+
+          <div class="bd-example" data-example-id="">
+          <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              This dropdown's menu is right-aligned
+            </button>
+            <div class="dropdown-menu dropdown-menu-right">
+              <button class="dropdown-item" type="button">Action</button>
+              <button class="dropdown-item" type="button">Another action</button>
+              <button class="dropdown-item" type="button">Something else here</button>
+            </div>
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="btn-group">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    This dropdown's menu is right-aligned
+  </button>
+  <div class="dropdown-menu dropdown-menu-right">
+    <button class="dropdown-item" type="button">Action</button>
+    <button class="dropdown-item" type="button">Another action</button>
+    <button class="dropdown-item" type="button">Something else here</button>
+  </div>
+</div></xmp></code></pre></div>
+
+          <h2 id="menu-headers">Menu headers</h2>
+
+          <p>Add a header to label sections of actions in any dropdown menu.</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="dropdown-menu">
+            <h6 class="dropdown-header">Dropdown header</h6>
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="dropdown-menu">
+  <h6 class="dropdown-header">Dropdown header</h6>
+  <a class="dropdown-item" href="#">Action</a>
+  <a class="dropdown-item" href="#">Another action</a>
+</div></xmp></code></pre></div>
+
+          <h2 id="menu-dividers">Menu dividers</h2>
+
+          <p>Separate groups of related menu items with a divider.</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="dropdown-menu">
+  <a class="dropdown-item" href="#">Action</a>
+  <a class="dropdown-item" href="#">Another action</a>
+  <a class="dropdown-item" href="#">Something else here</a>
+  <div class="dropdown-divider"></div>
+  <a class="dropdown-item" href="#">Separated link</a>
+</div></xmp></code></pre></div>
+
+          <h2 id="disabled-menu-items">Disabled menu items</h2>
+
+          <p>Add <code class="highlighter-rouge">.disabled</code> to items in the dropdown to <strong>style them as disabled</strong>.</p>
+
+          <div class="bd-example" data-example-id="">
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Regular link</a>
+            <a class="dropdown-item disabled" href="#">Disabled link</a>
+            <a class="dropdown-item" href="#">Another link</a>
+          </div>
+          </div>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="dropdown-menu">
+  <a class="dropdown-item" href="#">Regular link</a>
+  <a class="dropdown-item disabled" href="#">Disabled link</a>
+  <a class="dropdown-item" href="#">Another link</a>
+</div></xmp></code></pre></div>
+
+          <h2 id="usage">Usage</h2>
+
+          <p>Via data attributes or JavaScript, the dropdown plugin toggles hidden content (dropdown menus) by toggling the <code class="highlighter-rouge">.show</code> class on the parent list item. The <code class="highlighter-rouge">data-toggle="dropdown"</code> attribute is relied on for closing dropdown menus at an application level, so it’s a good idea to always use it.</p>
+
+          <div class="bd-callout bd-callout-info">
+          <p>On touch-enabled devices, opening a dropdown adds empty (<code class="highlighter-rouge">$.noop</code>) <code class="highlighter-rouge">mouseover</code> handlers to the immediate children of the <code class="highlighter-rouge">&lt;body&gt;</code> element. This admittedly ugly hack is necessary to work around a <a href="https://www.quirksmode.org/blog/archives/2014/02/mouse_event_bub.html">quirk in iOS’ event delegation</a>, which would otherwise prevent a tap anywhere outside of the dropdown from triggering the code that closes the dropdown. Once the dropdown is closed, these additional empty <code class="highlighter-rouge">mouseover</code> handlers are removed.</p>
+          </div>
+
+          <h3 id="via-data-attributes">Via data attributes</h3>
+
+          <p>Add <code class="highlighter-rouge">data-toggle="dropdown"</code> to a link or button to toggle a dropdown.</p>
+
+<div class="highlight"><pre><code class="language-html"><xmp><div class="dropdown">
+  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown trigger
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dLabel">
+    ...
+  </div>
+</div></xmp></code></pre></div>
+
+          <h3 id="via-javascript">Via JavaScript</h3>
+
+          <p>Call the dropdowns via JavaScript:</p>
+
+<div class="highlight"><pre><code class="language-js">$('.dropdown-toggle').dropdown()</code></pre></div>
+
+          <div class="bd-callout bd-callout-info">
+          <h5 id="data-toggledropdown-still-required"><code class="highlighter-rouge">data-toggle="dropdown"</code> still required</h5>
+
+          <p>Regardless of whether you call your dropdown via JavaScript or instead use the data-api, <code class="highlighter-rouge">data-toggle="dropdown"</code> is always required to be present on the dropdown’s trigger element.</p>
+          </div>
+
+          <h3 id="options">Options</h3>
+
+          <p>Options can be passed via data attributes or JavaScript. For data attributes, append the option name to <code class="highlighter-rouge">data-</code>, as in <code class="highlighter-rouge">data-placement=""</code>.</p>
+
+          <table class="table table-bordered table-striped table-responsive">
+            <thead>
+              <tr>
+                <th style="width: 100px;">Name</th>
+                <th style="width: 100px;">Type</th>
+                <th style="width: 50px;">Default</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>placement</td>
+                <td>string</td>
+                <td>'bottom'</td>
+                <td>
+                  <p>How to position the popover - top | bottom.</p>
+                </td>
+              </tr>
+              <tr>
+                <td>offset</td>
+                <td>number | string</td>
+                <td>0</td>
+                <td>Offset of the dropdown relative to its target. For more information refer to Popper.js's <a href="https://popper.js.org/popper-documentation.html#modifiers..offset.offset">offset docs</a>.</td>
+              </tr>
+              <tr>
+                <td>flip</td>
+                <td>boolean</td>
+                <td>true</td>
+                <td>Allow Dropdown to flip in case of an overlapping on the reference element. For more information refer to Popper.js's <a href="https://popper.js.org/popper-documentation.html#modifiers..flip.enabled">flip docs</a>.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3 id="methods">Methods</h3>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Method</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="highlighter-rouge">$().dropdown('toggle')</code></td>
+                <td>Toggles the dropdown menu of a given navbar or tabbed navigation.</td>
+              </tr>
+              <tr>
+                <td><code class="highlighter-rouge">$().dropdown('update')</code></td>
+                <td>Updates the position of an element’s dropdown.</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3 id="events">Events</h3>
+
+          <p>All dropdown events are fired at the <code class="highlighter-rouge">.dropdown-menu</code>’s parent element and have a <code class="highlighter-rouge">relatedTarget</code> property, whose value is the toggling anchor element.</p>
+
+          <table>
+            <thead>
+              <tr>
+                <th>Event</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code class="highlighter-rouge">show.bs.dropdown</code></td>
+                <td>This event fires immediately when the show instance method is called.</td>
+              </tr>
+              <tr>
+                <td><code class="highlighter-rouge">shown.bs.dropdown</code></td>
+                <td>This event is fired when the dropdown has been made visible to the user (will wait for CSS transitions, to complete).</td>
+              </tr>
+              <tr>
+                <td><code class="highlighter-rouge">hide.bs.dropdown</code></td>
+                <td>This event is fired immediately when the hide instance method has been called.</td>
+              </tr>
+              <tr>
+                <td><code class="highlighter-rouge">hidden.bs.dropdown</code></td>
+                <td>This event is fired when the dropdown has finished being hidden from the user (will wait for CSS transitions, to complete).</td>
+              </tr>
+            </tbody>
+          </table>
+
+<div class="highlight"><pre><code class="language-js">$('#myDropdown').on('show.bs.dropdown', function () {
+  // do something…
+})</code></pre></div>
+
+        </main>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="../js/scripts.js"></script>
+    <script src="../js/prism.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,117 @@
+.footer{
+  margin-top: 30px;
+
+  .footer-social {
+    background: $gray-700;
+    padding-top: 15px;
+    padding-bottom: 14px;
+
+    .social-link {
+      width: 34px;
+      height: 34px;
+      border: 2px solid #FFFFFF;
+      border-radius: 50%;
+      display: inline-block;
+      text-align: center;
+
+      line-height: 30px;
+      // font-size: $font-size-regular;
+      color: #FFFFFF;
+      margin-right: 3px;
+
+      &[title="Facebook"]:hover,
+      &[title="Facebook"]:focus {
+        background: $color-facebook;
+        border: 2px solid $color-facebook;
+        transition: all 500ms;
+        color: #FFFFFF;
+      }
+
+      &[title="LinkedIn"]:hover,
+      &[title="LinkedIn"]:focus {
+        background: $color-linkedin;
+        border: 2px solid $color-linkedin;
+        transition: all 500ms;
+        color: #FFFFFF;
+      }
+
+      &[title="Twitter"]:hover,
+      &[title="Twitter"]:focus {
+        background: $color-twitter;
+        border: 2px solid $color-twitter;
+        transition: all 500ms;
+        color: #FFFFFF;
+      }
+
+      &[title="YouTube"]:hover,
+      &[title="YouTube"]:focus {
+        background: $color-youtube;
+        border: 2px solid $color-youtube;
+        transition: all 500ms;
+        color: #FFFFFF;
+      }
+    }
+
+  }
+
+  .footer-bottom {
+    background: #0D0D0D;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .footer-links {
+    position: relative;
+    text-align: center;
+
+    @include media-breakpoint-up(sm) {
+      padding-right: 100px;
+      text-align: left;
+    }
+
+    nav a {
+      color: #eee;
+      font-size: $font-size-sm;
+      display: inline-block;
+      margin-right: 12px;
+      &:hover {
+        color: #2CA9E0;
+        text-decoration: none;
+      }
+    }
+
+    p {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      color: #eee;
+      font-size: $font-size-sm;
+    }
+  }
+
+}
+
+.footer-logo {
+  width: 100%;
+  right: 0px;
+  top: 0px;
+  top: -5px;
+  transition: 500ms;
+  position: relative;
+  text-align: center;
+  padding: 5px 0 15px 0;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  @include media-breakpoint-up(sm){
+    width: 90px;
+    position: absolute;
+    padding: 0;
+  }
+
+  &-img {
+    height: 55px;
+    top: 0;
+  }
+}

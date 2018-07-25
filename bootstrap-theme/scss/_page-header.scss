@@ -1,0 +1,20 @@
+
+.page-header {
+  img.brand-logo {
+    height: 60px;
+  }
+  .border-secondary {
+    border-right-width: 0 !important;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  .page-header {
+    img.brand-logo {
+      height: 86px;
+    }
+    .border-secondary {
+      border-right-width: 1px !important;
+    }
+  }
+}
